@@ -7,9 +7,9 @@ This repository provides the code to reproduce the experimental results in the p
 
 To install the required python packages, run the following command:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 ### Datasets
 Two datasets are used in this repository, namely the [CIFAR10](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf) dataset and [CELEBA](http://openaccess.thecvf.com/content_iccv_2015/html/Liu_Deep_Learning_Face_ICCV_2015_paper.html) dataset.
