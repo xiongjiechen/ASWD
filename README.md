@@ -1,22 +1,16 @@
 # Augmented-Sliced-Wasserstein-Distances
 
-This repository provides the code to reproduce the experimental results in the paper **[Augmented Sliced Wasserstein Distances](https://arxiv.org/abs/2006.08812)** by **[Xiongjie Chen](https://github.com/xiongjiechen), [Yongxin Yang](https://www.surrey.ac.uk/people/yongxin-yang)** and **[Yunpeng Li](https://www.surrey.ac.uk/people/yunpeng-li)**.
+This repository provides the code to reproduce the experimental results in the paper **[Augmented Sliced Wasserstein Distances](https://arxiv.org/abs/2006.08812)** by **[Xiongjie Chen](https://github.com/xiongjiechen), [Yongxin Yang](https://yang.ac/)** and **[Yunpeng Li](https://www.surrey.ac.uk/people/yunpeng-li)**.
 ## Prerequisites
 
 ### Python packages
-pytorch==1.4.0
 
-torchvision==0.5.0
+To install the required python packages, run the following command:
 
-cudatoolkit==10.1.243
+'''
+pip install -r requirements.txt
+'''
 
-cupy==7.40
-
-numpy==1.18.1
-
-pot==0.7.0
-
-imageio==2.8.0
 ### Datasets
 Two datasets are used in this repository, namely the [CIFAR10](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.222.9220&rep=rep1&type=pdf) dataset and [CELEBA](http://openaccess.thecvf.com/content_iccv_2015/html/Liu_Deep_Learning_Face_ICCV_2015_paper.html) dataset.
 - The CIFAR10 dataset (64x64 pixels) will be automatically downloaded from https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz when running the experiment on CIFAR10 dataset. 
