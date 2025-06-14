@@ -102,7 +102,7 @@ If you find this code useful for your research, please cite our paper:
 @inproceedings{chenaugmented,
   title={Augmented Sliced Wasserstein Distances},
   author={Chen, Xiongjie and Yang, Yongxin and Li, Yunpeng},
-  booktitle={International Conference on Learning Representations},
+  booktitle={International Conference on Learning Representations (ICLR)},
   year=P{2022}
 }
 ```
