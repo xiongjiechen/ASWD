@@ -99,10 +99,10 @@ The pytorch code for calculating the FID score is from https://github.com/mseitz
 ## Citation
 If you find this code useful for your research, please cite our paper:
 ```
-@article{chen2020augmented,
-    title={Augmented Sliced Wasserstein Distance},
-    author={Chen, Xiongjie and Yang, Yongxin and Li, Yunpeng},
-    journal={arXiv preprint arXiv:2006.08812},
-    year={2020}
+@inproceedings{chenaugmented,
+  title={Augmented Sliced Wasserstein Distances},
+  author={Chen, Xiongjie and Yang, Yongxin and Li, Yunpeng},
+  booktitle={International Conference on Learning Representations},
+  year=P{2022}
 }
 ```
